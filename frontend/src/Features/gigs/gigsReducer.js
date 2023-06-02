@@ -17,9 +17,9 @@ export const getAllGigs = createAsyncThunk(
         maxprice,
       } = thunkAPI.getState().gigs;
       let GigsUrl = `/api/v1/gig`;
-      if (sort) {
-        GigsUrl = GigsUrl + `?sort=${sort}`;
-      }
+      // if (sort) {
+      //   GigsUrl = GigsUrl + `?sort=${sort}`;
+      // }
       // if (category) {
       //   GigsUrl = GigsUrl + `?category=${category}`;
       //   const { data } = await axios.get(GigsUrl);
