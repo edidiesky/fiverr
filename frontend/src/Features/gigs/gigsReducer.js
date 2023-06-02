@@ -18,7 +18,7 @@ export const getAllGigs = createAsyncThunk(
       } = thunkAPI.getState().gigs;
       let GigsUrl = `/api/v1/gig`;
       if (sort) {
-        productUrl = productUrl + `?sort=${sort}`;
+        GigsUrl = GigsUrl + `?sort=${sort}`;
       }
       // if (category) {
       //   GigsUrl = GigsUrl + `?category=${category}`;
