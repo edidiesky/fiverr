@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import GigsIndex from "./gigs";
+// import GigsIndex from "./gigs";
 import PaginationIndex from "./pagination";
 import TopHeader from "./top";
 import { useParams } from "react-router-dom";
@@ -24,7 +24,7 @@ export default function Servicesindex() {
       <Header type={"service"} />
       <div className="w-90 auto flex column gap-2 py-6">
         <TopHeader title={category2 ? category2 : category1} />
-        <GigsIndex />
+        {/* <GigsIndex /> */}
         {/* <PaginationIndex /> */}
       </div>
     </div>
