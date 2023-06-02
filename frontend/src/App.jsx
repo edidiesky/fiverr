@@ -24,15 +24,15 @@ import {
   Register,
 } from "./screens";
 
-import {
-  LayoutList,
-  // Statistics,
-  // AdminProductList,
-  ProfileList,
-  // Customers,
-  // EditUser,
-  CreateProductIndex,
-} from "./screens/Dashboard/pages";
+// import {
+//   LayoutList,
+//   // Statistics,
+//   // AdminProductList,
+//   ProfileList,
+//   // Customers,
+//   // EditUser,
+//   CreateProductIndex,
+// } from "./screens/Dashboard/pages";
 import { useDispatch, useSelector } from "react-redux";
 import { handlePaypalKey } from "./Features";
 import LoaderIndex from "./components/loaders";
@@ -93,14 +93,14 @@ export default function App() {
                 />
               </Route>
 
-              <Route exact path={"/dashboard/"} element={<LayoutList />}>
+              {/* <Route exact path={"/dashboard/"} element={<LayoutList />}>
                 <Route exact path="profile" element={<ProfileList />} />
                 <Route
                   exact
                   path="create-product"
                   element={<CreateProductIndex />}
                 />
-              </Route>
+              </Route> */}
             </Routes>
           </div>
         </PayPalScriptProvider>
