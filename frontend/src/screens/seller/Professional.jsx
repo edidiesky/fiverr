@@ -39,7 +39,7 @@ export default function Professional() {
             </span>
           </h4>
           <div className="border w-100 wrapper flex column gap-2">
-            <Select defaultValue={value} options={options} value={value} onChange={changeHandler} />
+            {/* <Select defaultValue={value} options={options} value={value} onChange={changeHandler} /> */}
           </div>
         </div>
 
